@@ -1,0 +1,58 @@
+@import './reset';
+
+@import './tipografia';
+
+@media (width < 768px) {
+    body {
+        .omelette {
+            width: 100%;
+        }
+
+        .titulo {
+            font-size: 35px;
+            font-weight: 400;
+            margin: 30px;
+            font-family: "young serif", sans-serif;
+        }
+        .intro {
+            font-size: 16px;
+            margin: 30px;
+            color: hsl(30, 10%, 34%);
+        }
+        .preparacion{
+            padding: 20px;
+            flex-direction: column;
+            margin: 30px;
+            background-color: hsl(330, 100%, 98%);
+            display: flex;
+            .tit{
+                font-size: 20px;
+                color: hsl(332, 51%, 32%);
+                font-weight: 700;
+            }
+            .lista-tiempo{
+                margin-left: 20px;
+                li{
+                    color: hsl(30, 10%, 34%);
+                    padding: 10px;
+                }
+                span{
+                    font-weight: 700;
+                    color: hsl(30, 10%, 34%);
+                }
+            }
+        }
+        .ingredientes{
+            .titulo-ingredientes{
+                color: hsl(14, 45%, 36%);
+                font-family: "young serif", sans-serif;
+                margin: 20px;
+                font-size: 25px;
+                font-weight: 500;
+        }
+        .lista-ingredientes{
+            margin: 60px;
+        }
+        }
+    }
+}
